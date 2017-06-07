@@ -43,7 +43,12 @@
 	<div class="divider">
 		<h2>Empresa</h2>
 	</div>
-	<img src="images/empresa.jpg" alt="" class="img-responsive">
+	<div class="container">
+		<div class="contenido">
+			<p>mollis nulla. Sed luctus turpis et neque finibus finibus. Curabitur dui sem, hendrerit eget erat fermentum, scelerisque posuere purus. Nullam semper justo eros, eu consectetur neque suscipit eu. Nulla est odio, interdum id mi aliquet, pretium fermentum nulla.</p>
+			<p>facilisi. Praesent at mollis lectus. Sed ut urna sit amet nisl molestie aliquet. Sed et posuere est, eget pellentesque lorem. Aliquam vel imperdiet mauris.</p>
+		</div>
+	</div>
 </section>
 
 

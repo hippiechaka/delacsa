@@ -77,6 +77,12 @@ a.circleSocialBtn i{
 a.circleSocialBtn i.fa-facebook{left:9px;}
 a.circleSocialBtn#facebook:hover{background:#3b5998;border-color:#3b5998;}
 a.circleSocialBtn#facebook:hover i{color:#fff;}
+
+
+#empresa{background-color:#5a9ab6;background-image:url("../images/empresa.jpg");background-size:contain;background-repeat:no-repeat;min-height:600px;}
+#empresa .contenido{text-align:center;font-size:1.680em;max-width:60%;margin:90px auto; color:#fff;}
+#empresa .contenido p{margin:20px auto;}
+
 #servicios{}
 #servicios .col-md-6{min-height:600px;}
 #serv1{background-color:#13378d;}
