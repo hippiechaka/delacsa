@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="navbar-header">
 				<a href="" class="navbar-brand">
-					<img src="http://placehold.it/110x50" alt="">
+					<img src="http://placehold.it/110x60" alt="">
 				</a>
 			</div>
 			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#nav-res" aria-expanded="true">
@@ -14,7 +14,7 @@
 				<span class="icon-bar"></span>
 			</button>
 
-			<ul class="nav navbar-nav list-inline">
+			<ul class="nav navbar-nav list-inline navbar-right">
 
 				<li><a href="">Servicios</a></li>
 				<li><a href="">Contacto</a></li>
@@ -31,25 +31,25 @@
 						<i class="fa fa-facebook" aria-hidden="true"></i>
 					</a>
 				</li>
-				<!-- <li class="redesBtn">
-					<a href="" class="redesIcon" id="instagram">
-						<i class="fa fa-instagram" aria-hidden="true"></i>
-					</a>
-				</li>
-				<li class="redesBtn">
-					<a href="" class="redesIcon" id="youtube">
-						<i class="fa fa-youtube" aria-hidden="true"></i>
-					</a>
-				</li> -->
 
 			</ul>
 		</div>
 	</div>
 </nav>
 <!-- header -->
-<header class="block">
-	<section id="mainImage" class="container-fluid"><img src="images/header.jpg" alt="" class="img-responsive"></section>
+<header id="mainImage" class="container-fluid" style="padding:0;">
+	<img src="images/header.jpg" alt="" class="img-responsive">
 </header>
+<div class="divider">
+	<h2>Empresa</h2>
+</div>
+<!-- empresa -->
+<section id="empresa" class="container-fluid" style="padding:0;">
+	<img src="images/empresa.jpg" alt="" class="img-responsive">
+</section>
+<div class="divider">
+	<h2>Servicios</h2>
+</div>
 <!-- servicios -->
 <section id="servicios" class="container-fluid">
 	<div id="serv1" class="col-md-6 left">
@@ -89,4 +89,8 @@
 		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
 	</div>
 </section>
+<div class="divider">
+	<h2>Contacto</h2>
+</div>
+
 
