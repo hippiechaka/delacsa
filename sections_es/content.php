@@ -45,8 +45,8 @@
 	</div>
 	<div class="container">
 		<div class="contenido">
-			<p>mollis nulla. Sed luctus turpis et neque finibus finibus. Curabitur dui sem, hendrerit eget erat fermentum, scelerisque posuere purus. Nullam semper justo eros, eu consectetur neque suscipit eu. Nulla est odio, interdum id mi aliquet, pretium fermentum nulla.</p>
-			<p>facilisi. Praesent at mollis lectus. Sed ut urna sit amet nisl molestie aliquet. Sed et posuere est, eget pellentesque lorem. Aliquam vel imperdiet mauris.</p>
+			<p>DELACSA. Somos una empresa orgullosamente mexicana dedicada al mantenimiento residencial, comercial e industrial en la zona metropolitana de guadalajara.</p>
+			<p>Nuestros 20 años de experiencia en nuestro ramo, respaldan la calidad de nuestro trabajo y nos da la posibilidad de garantizar los resultados ofrecidos a nuestros usuarios.</p>
 		</div>
 	</div>
 </section>
@@ -65,34 +65,34 @@
 		<div class="halfContainer"><img src="images/fontaneria2.png" alt="" class="pull-right"></div>
 	</div>
 	<div id="serv3" class="col-md-6 left">
-		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-left"></div>
+		<div class="halfContainer"><img src="images/electricidad2.png" alt="" class="pull-left"></div>
 	</div>
 	<div id="serv4" class="col-md-6 right">
-		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
+		<div class="halfContainer"><img src="images/albanileria2.png" alt="" class="pull-right"></div>
 	</div>
 	<div id="serv5" class="col-md-6 left">
-		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-left"></div>
+		<div class="halfContainer"><img src="images/herreria2.png" alt="" class="pull-left"></div>
 	</div>
 	<div id="serv6" class="col-md-6 right">
-		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
+		<div class="halfContainer"><img src="images/impermeabilizacion2.png" alt="" class="pull-right"></div>
 	</div>
 	<div id="serv7" class="col-md-6 left">
-		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-left"></div>
+		<div class="halfContainer"><img src="images/carpinteria2.png" alt="" class="pull-left"></div>
 	</div>
 	<div id="serv8" class="col-md-6 right">
-		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
+		<div class="halfContainer"><img src="images/azulejos2.png" alt="" class="pull-right"></div>
 	</div>
 	<div id="serv9" class="col-md-6 left">
-		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-left"></div>
+		<div class="halfContainer"><img src="images/remodelaciones2.png" alt="" class="pull-left"></div>
 	</div>
 	<div id="serv10" class="col-md-6 right">
-		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
+		<div class="halfContainer"><img src="images/tinacos2.png" alt="" class="pull-right"></div>
 	</div>
 	<div id="serv11" class="col-md-6 left">
-		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-left"></div>
+		<div class="halfContainer"><img src="images/tablaroca2.png" alt="" class="pull-left"></div>
 	</div>
 	<div id="serv12" class="col-md-6 right">
-		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
+		<div class="halfContainer"><img src="images/jardineria2.png" alt="" class="pull-right"></div>
 	</div>
 </section>
 <section id="contacto">
