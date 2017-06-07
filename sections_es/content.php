@@ -1,10 +1,10 @@
-<div class="clearfix" style="height:90px;"></div><!-- ALTO DE NAVBAR-->
+<div class="clearfix" style="height:90px;" id="top"></div><!-- ALTO DE NAVBAR-->
 <!-- navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="container">
 			<div class="navbar-header">
-				<a href="" class="navbar-brand">
+				<a href="#top" class="navbar-brand">
 					<img src="http://placehold.it/110x60" alt="">
 				</a>
 			</div>
@@ -16,14 +16,14 @@
 
 			<ul class="nav navbar-nav list-inline navbar-right">
 
-				<li><a href="">Servicios</a></li>
-				<li><a href="">Contacto</a></li>
+				<li><a href="#servicios">Servicios</a></li>
+				<li><a href="#contacto">Contacto</a></li>
 				<li><a class="tel"><i class="fa fa-phone"></i> 36 40 41 39</a></li>
 
 				<!-- REDES SOCIALES -->
 
 				<li class="redesBtn">
-					<a href="" class="redesIcon" id="facebook">
+					<a href="javascript:void(0);" class="redesIcon" id="facebook">
 						<i class="fa fa-facebook" aria-hidden="true"></i>
 					</a>
 				</li>
@@ -37,21 +37,22 @@
 	<img src="images/header.jpg" alt="" class="img-responsive">
 </header>
 
-<div class="divider">
-	<h2>Empresa</h2>
-</div>
 
 <!-- empresa -->
 <section id="empresa" class="container-fluid" style="padding:0;">
+	<div class="divider">
+		<h2>Empresa</h2>
+	</div>
 	<img src="images/empresa.jpg" alt="" class="img-responsive">
 </section>
 
-<div class="divider">
-	<h2>Servicios</h2>
-</div>
+
 
 <!-- servicios -->
 <section id="servicios" class="container-fluid">
+	<div class="divider">
+		<h2>Servicios</h2>
+	</div>
 	<div id="serv1" class="col-md-6 left">
 		<div class="halfContainer"><img src="images/pintura2.png" alt="" class="pull-left"></div>
 	</div>
@@ -89,8 +90,9 @@
 		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
 	</div>
 </section>
-<div class="divider">
-	<h2>Contacto</h2>
-</div>
-
+<section id="contacto">
+	<div class="divider">
+		<h2>Contacto</h2>
+	</div>
+</section>
 
