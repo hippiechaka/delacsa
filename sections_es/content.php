@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="navbar-header">
 				<a href="" class="navbar-brand">
-					<img src="http://placehold.it/180x65" alt="">
+					<img src="http://placehold.it/110x50" alt="">
 				</a>
 			</div>
 			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#nav-res" aria-expanded="true">
@@ -16,24 +16,13 @@
 
 			<ul class="nav navbar-nav list-inline">
 
-				<li><a href="">Page 1</a></li>
-				<li><a href="">Page 2</a></li>
-				<li><a href="">Page 3</a></li>
+				<li><a href="">Servicios</a></li>
+				<li><a href="">Contacto</a></li>
+				<!-- <li><a href="">Page 3</a></li>
 				<li><a href="">Page 4</a></li>
-				<li><a href="">Page 5</a></li>
+				<li><a href="">Page 5</a></li> -->
 
-				<li class="divider"></li>
-
-				<li class="idioma">
-					<a href="" class="flagIdioma" id="idioma1">
-						<img src="http://placehold.it/30x30" alt="">
-					</a>
-				</li>
-				<li class="idioma">
-					<a href="" class="flagIdioma" id="idioma2">
-						<img src="http://placehold.it/30x30" alt="">
-					</a>
-				</li>
+				<li><a class="tel"><i class="fa fa-phone"></i> 36 40 41 39</a></li>
 
 				<!-- REDES SOCIALES -->
 
@@ -42,7 +31,7 @@
 						<i class="fa fa-facebook" aria-hidden="true"></i>
 					</a>
 				</li>
-				<li class="redesBtn">
+				<!-- <li class="redesBtn">
 					<a href="" class="redesIcon" id="instagram">
 						<i class="fa fa-instagram" aria-hidden="true"></i>
 					</a>
@@ -51,7 +40,7 @@
 					<a href="" class="redesIcon" id="youtube">
 						<i class="fa fa-youtube" aria-hidden="true"></i>
 					</a>
-				</li>
+				</li> -->
 
 			</ul>
 		</div>
