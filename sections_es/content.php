@@ -46,10 +46,47 @@
 		</div>
 	</div>
 </nav>
-<!-- BLOCK -->
+<!-- header -->
 <header class="block">
 	<section id="mainImage" class="container-fluid"><img src="images/header.jpg" alt="" class="img-responsive"></section>
 </header>
-
-
+<!-- servicios -->
+<section id="servicios" class="container-fluid">
+	<div id="serv1" class="col-md-6 left">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-left"></div>
+	</div>
+	<div id="serv2" class="col-md-6 right">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
+	</div>
+	<div id="serv3" class="col-md-6 left">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-left"></div>
+	</div>
+	<div id="serv4" class="col-md-6 right">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
+	</div>
+	<div id="serv5" class="col-md-6 left">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-left"></div>
+	</div>
+	<div id="serv6" class="col-md-6 right">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
+	</div>
+	<div id="serv7" class="col-md-6 left">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-left"></div>
+	</div>
+	<div id="serv8" class="col-md-6 right">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
+	</div>
+	<div id="serv9" class="col-md-6 left">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-left"></div>
+	</div>
+	<div id="serv10" class="col-md-6 right">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
+	</div>
+	<div id="serv11" class="col-md-6 left">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-left"></div>
+	</div>
+	<div id="serv12" class="col-md-6 right">
+		<div class="halfContainer"><img src="http://placehold.it/300x300" alt="" class="pull-right"></div>
+	</div>
+</section>
 
