@@ -6,6 +6,6 @@ nav.navbar.navbar-inverse.navbar-fixed-top>div.container-fluid>div.container>(di
 <!-- HEADER -->
 header.block>section#mainImage.container-fluid>img.img-responsive[src="http://placehold.it/1920x480"]
 <!-- sections -->
-section#servicios.container-fluid>(div#serv$.col-md-6.left-right>div.halfContainer>img[src="http://placehold.it/300x300"])*6
+section#servicios.container-fluid>(div#serv$.col-md-6.left-right>div.halfContainer>img[src="http://placehold.it/300x300"])*12
 <!--dividers:-->
 div.divider>h2{titulo $}[align="center"]
