@@ -141,17 +141,17 @@
 		<div class="halfContainer pull-right">
 			<i class="servIcon"><img src="images/remodelaciones.png" alt="" class="pull-left imgServicio"></i>
 			<h3 align="center">Remodelaciones</h3>	
-			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
-			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+			<p>Nuestros profesionales de la construcción le brindarán asesoría sobre las propuestas óptimas de proyecto, ayudándolo a ahorrar tiempo, dinero y esfuerzo en cada paso del camino.</p>
+			<p>Proyectos y alteraciones por medio de estructura general o componentes específicos en hogares, oficinas, almacenes, naves industriales, hospitales, áreas recreativas, etc.</p>	
 		</div>
 	</div>
 	<div id="serv10" class="col-md-6 right">
 		<img src="images/tinacos2.png" alt="" class="imgServicio img-right">
 		<div class="halfContainer pull-left">
-			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
-			<h3 align="center">fontanería</h3>	
-			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
-			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+			<i class="servIcon"><img src="images/tinacos.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">Limpieza de tinacos y aljibe</h3>	
+			<p>Damos mantenimiento a tinacos y aljibe.</p>
+			<p>Reparamos fugas, saneamos e impermeabilizamos.</p>	
 		</div>
 	</div>
 	<div id="serv11" class="col-md-6 left">
