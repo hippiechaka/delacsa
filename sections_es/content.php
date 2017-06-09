@@ -177,5 +177,62 @@
 	<div class="divider">
 		<h2>Contacto</h2>
 	</div>
+
+	<div class="container">
+		<div class="col-md-6 center-block">
+			<?php
+        if($enviado == 1){ ?>
+          <div class="agradecimiento text-center">
+            <p>Gracias por contactarnos<br><small>(refresca el sitio si quieres enviar <u>otro</u> mensaje</p>
+            <img class=" gif" src="images/gracias.gif" class="img-responsive">
+          </div>
+        <?php } else { ?>
+          <form action="#contacto" method="post">
+            <p class="text-center">Déjanos un mensaje</p>
+            <div class="col-sm-6">
+              <span class="input input--minoru">
+                <input class="input__field input__field--minoru" type="text" id="input-13" name="nombre" required />
+                <label class="input__label input__label--minoru" for="input-13">
+                  <span class="input__label-content input__label-content--minoru">Nombre</span>
+                </label>
+              </span>
+            </div>
+
+            <div class="col-sm-6">
+              <span class="input input--minoru">
+                <input class="input__field input__field--minoru" type="email" id="input-13" name="email" required />
+                <label class="input__label input__label--minoru" for="input-13">
+                  <span class="input__label-content input__label-content--minoru">Email</span>
+                </label>
+              </span>
+            </div>
+
+            <div class="col-sm-12">
+              <span class="input input--minoru">
+                <input class="input__field input__field--minoru" type="text" id="input-13" name="comentarios" required />
+                <label class="input__label input__label--minoru" for="input-13">
+                  <span class="input__label-content input__label-content--minoru">Comentario</span>
+                </label>
+              </span>
+            </div>
+
+            <div class="col-md-4 col-md-offset-4 text-center">
+              <button type="submit" class="btn btn-block btn-enviar">Enviar</button>
+            </div>
+          </form>
+        <?php }?>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
 </section>
 

@@ -7,6 +7,38 @@
   $url     = '';
 ?>
 
+<?php
+$enviado = 0;
+if(!empty($_REQUEST['nombre'])){
+    $remitente = 'hippiechaka@gmail.com' ;
+    $nombre = utf8_decode(empty($_POST['nombre']) ? 0 : $_POST['nombre']);
+    $email = empty($_POST['email']) ? 0 : $_POST['email'];
+    $comentarios = utf8_decode(empty($_POST['comentarios']) ? 0 : $_POST['comentarios']);
+    $asunto = 'Contacto web';
+    $destino = 'hippiechaka@gmail.com';
+    $para      = 'hippiechaka@gmail.com';
+    $titulo    = 'Contacto web';
+    $mensaje = '
+    <div style="font-size: 18px; color: #242424; margin:0 auto; max-width:600px;">
+      <div style="font-size: 18px; background-color: #000; color: #fff; width: 100%; padding:15px; text-align:center;">
+        <img style:"text-align:center; margin:0 auto; left:0; right:0; width:100%; height:auto;"  src="http://delacsa.com/images/shareimg.jpg" />
+      </div>
+        <br />
+      <div style="color: #242424; font-size:25px;">
+        Tienes un comentario </div><br />
+        <strong>Nombre: </strong>'.$nombre.'<br />
+        <strong>E-mail: </strong>'.$email.'<br />
+        <strong>Comentarios: </strong>'.$comentarios.'<br /><br/>
+      </div>
+    </div>';
+    // Cabecera que especifica que es un HMTL
+    $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+    $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+    $cabeceras .= 'From: Contacto web delacsa.com' . "\r\n";
+    mail($para, $titulo, $mensaje, $cabeceras);
+    $enviado = 1;
+}?>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
