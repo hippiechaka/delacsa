@@ -34,6 +34,7 @@
 </nav>
 <!-- header -->
 <header id="mainImage" class="container-fluid" style="padding:0;">
+
 	<img src="images/header.jpg" alt="" class="img-responsive">
 </header>
 
@@ -59,40 +60,117 @@
 		<h2>Servicios</h2>
 	</div>
 	<div id="serv1" class="col-md-6 left">
-		<div class="halfContainer"><img src="images/pintura2.png" alt="" class="pull-left"></div>
+
+		<img src="images/pintura2.png" alt="" class="imgServicio img-left">
+
+		<div class="halfContainer pull-right">
+			<i class="servIcon"><img src="images/pintura.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">Pintura</h3>
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
+
 	</div>
 	<div id="serv2" class="col-md-6 right">
-		<div class="halfContainer"><img src="images/fontaneria2.png" alt="" class="pull-right"></div>
+
+		<img src="images/fontaneria2.png" alt="" class="imgServicio img-right">
+
+		<div class="halfContainer pull-left">
+			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">fontanería</h3>	
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
 	</div>
 	<div id="serv3" class="col-md-6 left">
-		<div class="halfContainer"><img src="images/electricidad2.png" alt="" class="pull-left"></div>
+		<img src="images/electricidad2.png" alt="" class="imgServicio img-left">
+		<div class="halfContainer pull-right">
+			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">fontanería</h3>	
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
 	</div>
 	<div id="serv4" class="col-md-6 right">
-		<div class="halfContainer"><img src="images/albanileria2.png" alt="" class="pull-right"></div>
+		<img src="images/albanileria2.png" alt="" class="imgServicio img-right">
+		<div class="halfContainer pull-left">
+			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">fontanería</h3>	
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
 	</div>
 	<div id="serv5" class="col-md-6 left">
-		<div class="halfContainer"><img src="images/herreria2.png" alt="" class="pull-left"></div>
+		<img src="images/herreria2.png" alt="" class="imgServicio img-left">
+		<div class="halfContainer pull-right">
+			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">fontanería</h3>	
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
 	</div>
 	<div id="serv6" class="col-md-6 right">
-		<div class="halfContainer"><img src="images/impermeabilizacion2.png" alt="" class="pull-right"></div>
+		<img src="images/impermeabilizacion2.png" alt="" class="imgServicio img-right">
+		<div class="halfContainer pull-left">
+			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">fontanería</h3>	
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
 	</div>
 	<div id="serv7" class="col-md-6 left">
-		<div class="halfContainer"><img src="images/carpinteria2.png" alt="" class="pull-left"></div>
+		<img src="images/carpinteria2.png" alt="" class="imgServicio img-left">
+		<div class="halfContainer pull-right">
+			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">fontanería</h3>	
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
 	</div>
 	<div id="serv8" class="col-md-6 right">
-		<div class="halfContainer"><img src="images/azulejos2.png" alt="" class="pull-right"></div>
+		<img src="images/azulejos2.png" alt="" class="imgServicio img-right">
+		<div class="halfContainer pull-left">
+			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">fontanería</h3>	
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
 	</div>
 	<div id="serv9" class="col-md-6 left">
-		<div class="halfContainer"><img src="images/remodelaciones2.png" alt="" class="pull-left"></div>
+		<img src="images/remodelaciones2.png" alt="" class="imgServicio img-left">
+		<div class="halfContainer pull-right">
+			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">fontanería</h3>	
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
 	</div>
 	<div id="serv10" class="col-md-6 right">
-		<div class="halfContainer"><img src="images/tinacos2.png" alt="" class="pull-right"></div>
+		<img src="images/tinacos2.png" alt="" class="imgServicio img-right">
+		<div class="halfContainer pull-left">
+			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">fontanería</h3>	
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
 	</div>
 	<div id="serv11" class="col-md-6 left">
-		<div class="halfContainer"><img src="images/tablaroca2.png" alt="" class="pull-left"></div>
+		<img src="images/tablaroca2.png" alt="" class="imgServicio img-left">
+		<div class="halfContainer pull-right">
+			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">fontanería</h3>	
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
 	</div>
 	<div id="serv12" class="col-md-6 right">
-		<div class="halfContainer"><img src="images/jardineria2.png" alt="" class="pull-right"></div>
+		<img src="images/jardineria2.png" alt="" class="imgServicio img-right">
+		<div class="halfContainer pull-left">
+			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">fontanería</h3>	
+			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
+			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+		</div>
 	</div>
 </section>
 <section id="contacto">

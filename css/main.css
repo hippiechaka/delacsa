@@ -84,7 +84,7 @@ a.circleSocialBtn#facebook:hover i{color:#fff;}
 #empresa .contenido p{margin:20px auto;}
 
 #servicios{}
-#servicios .col-md-6{min-height:600px;}
+#servicios .col-md-6{min-height:600px;padding-top:60px;overflow:hidden;}
 #serv1{background-color:#13378d;}
 #serv2{background-color:#00baff;}
 #serv3{background-color:#ffc000;}
@@ -98,6 +98,28 @@ a.circleSocialBtn#facebook:hover i{color:#fff;}
 #serv11{background-color:#2f4c87;}
 #serv12{background-color:#64ad00;}
 
+.imgServicio{position:absolute;}
+.img-left{right:50%;
+
+}
+.img-right{left:50%;}
+.halfContainer{
+	position:relative;
+	z-index:999;
+	max-width:380px;
+	color:#fff;
+	background:rgba(0,0,0,0.5);
+	padding:15px 30px;
+	border-radius:5px;
+	
+}
+.servIcon{
+	width:102px;
+	height:102px;
+	display:block;
+	position:relative;
+	margin:10px auto;
+}
 
 
 /*
