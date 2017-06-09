@@ -35,7 +35,7 @@
 <!-- header -->
 <header id="mainImage" class="container-fluid" style="padding:0;">
 
-	<img src="images/header.jpg" alt="" class="img-responsive">
+	<!-- <img src="images/header.jpg" alt="" class="img-responsive"> -->
 </header>
 
 
