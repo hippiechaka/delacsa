@@ -157,19 +157,19 @@
 	<div id="serv11" class="col-md-6 left">
 		<img src="images/tablaroca2.png" alt="" class="imgServicio img-left">
 		<div class="halfContainer pull-right">
-			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
-			<h3 align="center">fontanería</h3>	
-			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
-			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+			<i class="servIcon"><img src="images/tablaroca.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">Tablaroca</h3>	
+			<p>Trabajamos tablaroca en cualquier entorno.</p>
+			<p>Somos expertos en el uso y aplicación de ésta técnica.</p>	
 		</div>
 	</div>
 	<div id="serv12" class="col-md-6 right">
 		<img src="images/jardineria2.png" alt="" class="imgServicio img-right">
 		<div class="halfContainer pull-left">
-			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
-			<h3 align="center">fontanería</h3>	
-			<p>Transformamos el ambiente de espacios por medio de colores para mejorar la calidad del espacio y la interacción con los usuarios.</p>
-			<p>Mantenimiento, prevención y corrección fachadas, techos, pisos, mobiliario. Impermeabilización en azoteas. Corrección en humedad y salitre</p>	
+			<i class="servIcon"><img src="images/jardineria.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">Jardinería</h3>	
+			<p>El cuidado de áreas recreativas embellecen cualquier espacio y mejora la calidad de vida de las personas que ocupan ese espacio de manera temporal o constante.</p>
+			<p>Mantenimiento, prevención y corrección. Poda de arboles, arbustos y jardines. Evacuación de basura.</p>	
 		</div>
 	</div>
 </section>
