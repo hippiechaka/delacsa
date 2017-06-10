@@ -38,7 +38,8 @@ section.container-fluid{padding:0;clear:both;display:block;/* overflow:hidden; *
 #mainImage{
 	background-image:url('../images/header.jpg');
 	background-repeat:no-repeat;
-	background-size:contain;
+	background-size:cover;
+	background-position:right;
 	min-height:400px;
 }
 

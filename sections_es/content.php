@@ -173,13 +173,14 @@
 		</div>
 	</div>
 </section>
-<section id="contacto">
+<section id="contacto">	
 	<div class="divider">
 		<h2>Contacto</h2>
 	</div>
 
 	<div class="container">
-		<div class="col-md-6 center-block">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
 			<?php
         if($enviado == 1){ ?>
           <div class="agradecimiento text-center">
@@ -219,6 +220,7 @@
             <div class="col-md-4 col-md-offset-4 text-center">
               <button type="submit" class="btn btn-block btn-enviar">Enviar</button>
             </div>
+            <div class="col-md-3"></div>
           </form>
         <?php }?>
 

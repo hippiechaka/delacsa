@@ -1,10 +1,10 @@
 
 <?php
-  $titulo     = '';
-  $descripcion  = '';
-  $keywords     = '';
-  $fb_img     = '';
-  $url     = '';
+  $titulo     = 'título de la página..';
+  $descripcion  = 'descripción..';
+  $keywords     = 'palabras clave..';
+  $fb_img     = 'ruta de imagen..';
+  $url     = 'url fibal..';
 ?>
 
 <?php
