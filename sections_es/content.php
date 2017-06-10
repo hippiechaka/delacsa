@@ -193,8 +193,8 @@
             <p class="text-center">Déjanos un mensaje</p>
             <div class="col-sm-6">
               <span class="input input--minoru">
-                <input class="input__field input__field--minoru" type="text" id="input-13" name="nombre" required />
-                <label class="input__label input__label--minoru" for="input-13">
+                <input class="input__field input__field--minoru" type="text" id="campo-nombre" name="nombre" required />
+                <label class="input__label input__label--minoru" for="campo-nombre">
                   <span class="input__label-content input__label-content--minoru">Nombre</span>
                 </label>
               </span>
@@ -202,8 +202,8 @@
 
             <div class="col-sm-6">
               <span class="input input--minoru">
-                <input class="input__field input__field--minoru" type="email" id="input-13" name="email" required />
-                <label class="input__label input__label--minoru" for="input-13">
+                <input class="input__field input__field--minoru" type="email" id="campo-email" name="email" required />
+                <label class="input__label input__label--minoru" for="campo-email">
                   <span class="input__label-content input__label-content--minoru">Email</span>
                 </label>
               </span>
@@ -211,8 +211,8 @@
 
             <div class="col-sm-12">
               <span class="input input--minoru">
-                <input class="input__field input__field--minoru" type="text" id="input-13" name="comentarios" required />
-                <label class="input__label input__label--minoru" for="input-13">
+                <input class="input__field input__field--minoru" type="text" id="campo-comentario" name="comentarios" required />
+                <label class="input__label input__label--minoru" for="campo-comentario">
                   <span class="input__label-content input__label-content--minoru">Comentario</span>
                 </label>
               </span>
@@ -232,7 +232,7 @@
 	<div class="container">
 		
 		<p align="center" class="sitemap">
-			<a href="#top">&uarr;<span class="sr-only">ir Arriba</span></a>&nbsp;|&nbsp;
+			<a href="#top" title="ir arriba">&uarr;<span class="sr-only">ir Arriba</span></a>&nbsp;|&nbsp;
 			<a href="#empresa">Empresa</a>&nbsp;|&nbsp;
 			<a href="#servicios">Servicios</a>&nbsp;|&nbsp;
 			<a href="#contacto">Contacto</a><!-- &nbsp;|&nbsp; -->
