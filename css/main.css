@@ -1236,7 +1236,7 @@ a.circleSocialBtn#facebook:hover i{color:#fff;}
 	transform: translate3d(0, -50%, 0);
 }
 footer{background-color:#000;padding-top:30px;padding-bottom:30px;}
-
+footer a:hover{color:#589bb6;text-decoration:none;}
 hr.gradient { 
   border: 0; 
   height: 1px; 
