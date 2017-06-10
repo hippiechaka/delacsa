@@ -3,8 +3,8 @@
   $titulo     = 'título de la página..';
   $descripcion  = 'descripción..';
   $keywords     = 'palabras clave..';
-  $fb_img     = 'ruta de imagen..';
-  $url     = 'url fibal..';
+  $fb_img     = 'http://www.delacsa.com.mx/images/shareimg.jpg';
+  $url     = 'http://www.delacsa.com.mx';
 ?>
 
 <?php
@@ -21,7 +21,7 @@ if(!empty($_REQUEST['nombre'])){
     $mensaje = '
     <div style="font-size: 18px; color: #242424; margin:0 auto; max-width:600px;">
       <div style="font-size: 18px; background-color: #000; color: #fff; width: 100%; padding:15px; text-align:center;">
-        <img style:"text-align:center; margin:0 auto; left:0; right:0; width:100%; height:auto;"  src="http://delacsa.com/images/shareimg.jpg" />
+        <img style:"text-align:center; margin:0 auto; left:0; right:0; width:100%; height:auto;"  src="http://delacsa.com.mx/images/shareimg.jpg" />
       </div>
         <br />
       <div style="color: #242424; font-size:25px;">
@@ -34,7 +34,7 @@ if(!empty($_REQUEST['nombre'])){
     // Cabecera que especifica que es un HMTL
     $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
     $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-    $cabeceras .= 'From: Contacto web delacsa.com' . "\r\n";
+    $cabeceras .= 'From: Contacto web desde www.delacsa.com.mx' . "\r\n";
     mail($para, $titulo, $mensaje, $cabeceras);
     $enviado = 1;
 }?>

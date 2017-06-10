@@ -8,34 +8,32 @@
 					<img src="images/delacsa_logo2.png" alt="">
 				</a>
 			</div>
-			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#nav-res" aria-expanded="true">
+			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="true">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav list-inline navbar-right">
+					<li><a href="#empresa">Empresa</a></li>
+					<li><a href="#servicios">Servicios</a></li>
+					<li><a href="#contacto">Contacto</a></li>
+					<li><a class="tel"><i class="fa fa-phone"></i> 36 40 41 39</a></li>
+					<!-- REDES SOCIALES -->
+					<li class="redesBtn">
+						<a href="javascript:void(0);" class="redesIcon" id="facebook">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+					</li>
 
-			<ul class="nav navbar-nav list-inline navbar-right">
-
-				<li><a href="#servicios">Servicios</a></li>
-				<li><a href="#contacto">Contacto</a></li>
-				<li><a class="tel"><i class="fa fa-phone"></i> 36 40 41 39</a></li>
-
-				<!-- REDES SOCIALES -->
-
-				<li class="redesBtn">
-					<a href="javascript:void(0);" class="redesIcon" id="facebook">
-						<i class="fa fa-facebook" aria-hidden="true"></i>
-					</a>
-				</li>
-
-			</ul>
+				</ul>
+			</div>
 		</div>
 	</div>
 </nav>
 <!-- header -->
 <header id="mainImage" class="container-fluid" style="padding:0;">
-
-	<!-- <img src="images/header.jpg" alt="" class="img-responsive"> -->
+	<div id="mainBrand" class="animated tada"><img src="images/delacsa_logo.png" alt="Delacsa | Soluciones en mantenimiento" class="img-responsive"></div>
 </header>
 
 
@@ -178,6 +176,9 @@
 		<h2>Contacto</h2>
 	</div>
 
+	<img src="images/24h.png" alt="SERVICIO 24 HORAS" class="center-block" style="margin:30px auto;">
+	<p align="center" class="txtBco"><i class="fa fa-phone" aria-hidden="true"></i> 36 40 41 39<br>SERVICIO 24 HORAS</p>
+
 	<div class="container">
 		<div class="col-md-3"></div>
 		<div class="col-md-6">
@@ -226,15 +227,23 @@
 
 		</div>
 	</div>
-
-
-
-
-
-
-
-
-
-
 </section>
+<footer>
+	<div class="container">
+		
+		<p align="center" class="sitemap">
+			<a href="#top">&uarr;<span class="sr-only">ir Arriba</span></a>&nbsp;|&nbsp;
+			<a href="#empresa">Empresa</a>&nbsp;|&nbsp;
+			<a href="#servicios">Servicios</a>&nbsp;|&nbsp;
+			<a href="#contacto">Contacto</a><!-- &nbsp;|&nbsp; -->
+		</p>
+		<p align="center" class="small">
+			<a href="javascript:void(0);">Facebook</a>
+			<br>
+			<a href="javascript:void(0);">AVISO DE PRIVACIDAD</a>
+		</p>
+		<hr class="gradient">
+		<p align="center" class="legal small">DELACSA  |  Todos los derechos reservados ©2017</p>
 
+	</div>
+</footer>

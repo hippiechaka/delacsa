@@ -22,7 +22,6 @@ a:hover {color: #000;}
     height: 90px;
     line-height: 90px;
     padding: 0 8px;
-
 }
 .navbar-inverse .navbar-nav > li.idioma, .navbar-inverse .navbar-nav > li.redesBtn,  .navbar-inverse .navbar-nav > li#kchink-menu{padding:0;}
 .navbar-brand {
@@ -42,9 +41,7 @@ section.container-fluid{padding:0;clear:both;display:block;/* overflow:hidden; *
 	background-position:right;
 	min-height:400px;
 }
-
-
-
+#mainBrand{width:380px;height:300px;margin:0 auto;top:100px;position:relative;-webkit-animation-iteration-count: 5;animation-iteration-count: 5;}
 .ultraLight{opacity:0.161803398874988}
 .divider{position:relative;background:#445464;color:white;height:90px;clear:both;display:block;}
 .divider h2{text-align:center;padding:0;line-height:90px;margin:0 auto;max-width:1200px;}
@@ -131,7 +128,9 @@ a.circleSocialBtn#facebook:hover i{color:#fff;}
 	margin:10px auto;
 }
 
-/* conatcto */
+/* contacto */
+#contacto{background:#5a9ab6;padding-bottom:30px;}
+.txtBco{color:#fff;}
 .input {
 	position: relative;
 	z-index: 1;
@@ -170,7 +169,7 @@ a.circleSocialBtn#facebook:hover i{color:#fff;}
 	float: right;
 	padding: 0 1em;
 	width: 40%;
-	color: #6a7989;
+	color: #fff;
 	font-weight: bold;
 	/*font-size: 70.25%;*/
 	-webkit-font-smoothing: antialiased;
@@ -1236,6 +1235,12 @@ a.circleSocialBtn#facebook:hover i{color:#fff;}
 	-webkit-transform: translate3d(0, -50%, 0);
 	transform: translate3d(0, -50%, 0);
 }
+footer{background-color:#000;padding-top:30px;padding-bottom:30px;}
+
+
+
+
+
 /*
 
 =========================================================  QUERIES
