@@ -1,10 +1,10 @@
 
 <?php
-  $titulo     = 'título de la página..';
-  $descripcion  = 'descripción..';
-  $keywords     = 'palabras clave..';
+  $titulo     = 'DELACSA  |  Soluciones en mantenimiento';
+  $descripcion  = 'Somos una empresa orgullosamente mexicana dedicada al mantenimiento residencial, comercial e industrial en la zona metropolitana de Guadalajara.';
+  $keywords     = 'mantenimiento residencial, mantenimiento comercial, mantenimiento industrial, zmg, guadalajara';
   $fb_img     = 'http://www.delacsa.com.mx/images/shareimg.jpg';
-  $url     = 'http://www.delacsa.com.mx';
+  $url     = 'http://www.delacsa.com.mx/';
 ?>
 
 <?php
