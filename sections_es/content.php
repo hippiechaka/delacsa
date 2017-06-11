@@ -1,40 +1,41 @@
 <div class="clearfix" style="height:90px;" id="top"></div><!-- ALTO DE NAVBAR-->
-<!-- navbar -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid">
-		<div class="container">
-			<div class="navbar-header">
-				<a href="#top" class="navbar-brand">
-					<img src="images/delacsa_logo2.png" alt="">
-				</a>
-			</div>
-			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="true">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav list-inline navbar-right">
-					<li><a href="#empresa">Empresa</a></li>
-					<li><a href="#servicios">Servicios</a></li>
-					<li><a href="#contacto">Contacto</a></li>
-					<li><a class="tel"><i class="fa fa-phone"></i> 36 40 41 39</a></li>
-					<!-- REDES SOCIALES -->
-					<li class="redesBtn">
-						<a href="javascript:void(0);" class="redesIcon" id="facebook">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
-						</a>
-					</li>
+<header>
+	<!-- navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#top" class="navbar-brand">
+						<img src="images/delacsa_logo2.png" alt="">
+					</a>
+				</div>
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="true">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav list-inline navbar-right" id="nav-res">
+						<li><a href="#empresa">Empresa</a></li>
+						<li><a href="#servicios">Servicios</a></li>
+						<li><a href="#contacto">Contacto</a></li>
+						<li><a class="tel"><i class="fa fa-phone"></i> 36 40 41 39</a></li>
+						<!-- REDES SOCIALES -->
+						<li class="redesBtn">
+							<a href="javascript:void(0);" class="redesIcon" id="facebook">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+						</li>
 
-				</ul>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</div>
-</nav>
-<!-- header -->
-<header id="mainImage" class="container-fluid" style="padding:0;">
-	<div id="mainBrand" class="animated tada"><img src="images/delacsa_logo.png" alt="Delacsa | Soluciones en mantenimiento" class="img-responsive"></div>
+
+	</nav>
 </header>
+<!-- header -->
+<section id="mainImage" class="container-fluid" style="padding:0;">
+	<div id="mainBrand" class="animated tada"><img src="images/delacsa_logo.png" alt="Delacsa | Soluciones en mantenimiento" class="img-responsive"></div>
+</section>
 
 
 <!-- empresa -->
@@ -185,35 +186,35 @@
 			<?php
         if($enviado == 1){ ?>
           <div class="agradecimiento text-center">
-            <p>Gracias por contactarnos<br><small>(refresca el sitio si quieres enviar <u>otro</u> mensaje</p>
-            <img class=" gif" src="images/gracias.gif" class="img-responsive">
+            <p>Gracias por contactarnos<br><small>(refresca el sitio si quieres enviar <u>otro</u> mensaje)</p>
+            <a href="./" class="center-block"><i class="fa fa-reload" aria-hidden="true"></i></a>
           </div>
         <?php } else { ?>
           <form action="#contacto" method="post">
             <p class="text-center">Déjanos un mensaje</p>
             <div class="col-sm-6">
-              <span class="input input--minoru">
-                <input class="input__field input__field--minoru" type="text" id="campo-nombre" name="nombre" required />
-                <label class="input__label input__label--minoru" for="campo-nombre">
-                  <span class="input__label-content input__label-content--minoru">Nombre</span>
+              <span class="input input--isao">
+                <input class="input__field input__field--isao" type="text" id="campo-nombre" name="nombre" required />
+                <label class="input__label input__label--isao" for="campo-nombre">
+                  <span class="input__label-content input__label-content--isao"><i class="fa fa-user" aria-hidden="true"></i> Nombre</span>
                 </label>
               </span>
             </div>
 
             <div class="col-sm-6">
-              <span class="input input--minoru">
-                <input class="input__field input__field--minoru" type="email" id="campo-email" name="email" required />
-                <label class="input__label input__label--minoru" for="campo-email">
-                  <span class="input__label-content input__label-content--minoru">Email</span>
+              <span class="input input--isao">
+                <input class="input__field input__field--isao" type="email" id="campo-email" name="email" required />
+                <label class="input__label input__label--isao" for="campo-email">
+                  <span class="input__label-content input__label-content--isao"><i class="fa fa-envelope" aria-hidden="true"></i> Email</span>
                 </label>
               </span>
             </div>
 
             <div class="col-sm-12">
-              <span class="input input--minoru">
-                <input class="input__field input__field--minoru" type="text" id="campo-comentario" name="comentarios" required />
-                <label class="input__label input__label--minoru" for="campo-comentario">
-                  <span class="input__label-content input__label-content--minoru">Comentario</span>
+              <span class="input input--isao">
+                <input class="input__field input__field--isao" type="text" id="campo-comentario" name="comentarios" required />
+                <label class="input__label input__label--isao" for="campo-comentario">
+                  <span class="input__label-content input__label-content--isao"><i class="fa fa-comment" aria-hidden="true"></i> Comentario</span>
                 </label>
               </span>
             </div>
