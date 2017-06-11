@@ -52,6 +52,7 @@ a:hover {color: #000;}
 	border-radius:50%;
 	display:block;
 	background-color:#658aaf;
+	color:#fff;
 	line-height:40px;
 	text-align:center;
 }
@@ -376,6 +377,7 @@ hr.gradient {
 	    padding:0;
 	    text-align:center;
 	}
+	#mainBrand{width:80%;max-width:380px;}
 }
 /* < 480 */
 @media screen and (max-width: 480px) {
