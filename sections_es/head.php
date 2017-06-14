@@ -21,7 +21,7 @@ if(!empty($_REQUEST['nombre'])){
     $mensaje = '
     <div style="font-size: 18px; color: #242424; margin:0 auto; max-width:600px;">
       <div style="font-size: 18px; background-color: #000; color: #fff; width: 100%; padding:15px; text-align:center;">
-        <img style:"text-align:center; margin:0 auto; left:0; right:0; width:100%; height:auto;"  src="http://delacsa.com.mx/images/shareimg.jpg" />
+        <img style:"text-align:center; margin:0 auto; left:0; right:0; width:100%; height:auto;"  src="http://delacsa.com.mx/images/contacto-img.jpg" />
       </div>
         <br />
       <div style="color: #242424; font-size:25px;">
@@ -44,7 +44,7 @@ if(!empty($_REQUEST['nombre'])){
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="icon" href="favicon.png">
+	<link rel="icon" href="favicon.ico">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 	<title><?php echo($titulo); ?></title>
@@ -83,6 +83,7 @@ if(!empty($_REQUEST['nombre'])){
 	<link href="css/animate.css" rel="stylesheet">
 	<link href="fonts/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 	<link href="css/owl.carousel.css" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
 	
 	<!-- custom -->
 

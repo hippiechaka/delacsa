@@ -5,7 +5,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;font-family:'Lato', sans-ser
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Raleway', Helvetica, sans-serif;
     color: #000;
     background:#f1f1f1;
 }
@@ -27,10 +27,13 @@ a:hover {color: #000;}
 }
 .navbar{height:90px;background:#445464;}
 .navbar-inverse .navbar-nav > li > a {
-    color: #9d9d9d;
+    color: #fff;
     height: 90px;
     line-height: 90px;
     padding: 0 8px;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li.idioma, .navbar-inverse .navbar-nav > li.redesBtn,  .navbar-inverse .navbar-nav > li#kchink-menu{padding:0;}
 .navbar-brand {
@@ -111,8 +114,8 @@ a.circleSocialBtn#facebook:hover{background:#3b5998;border-color:#3b5998;}
 a.circleSocialBtn#facebook:hover i{color:#fff;}
 
 
-#empresa{background-color:#5a9ab6;background-image:url("../images/empresa.jpg");background-size:contain;background-repeat:no-repeat;min-height:600px;}
-#empresa .contenido{text-align:center;font-size:1.680em;max-width:60%;margin:90px auto; color:#fff;}
+#empresa{background-color:#5a9ab6;background-image:url("../images/empresa.jpg");background-size:contain;background-repeat:no-repeat;min-height:420px;}
+#empresa .contenido{text-align:center;/* font-size:1.680em; */max-width:60%;margin:90px auto; color:#fff;}
 #empresa .contenido p{margin:20px auto;}
 
 #servicios{}

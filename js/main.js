@@ -17,6 +17,13 @@ $(document).ready(function() {
 	  });
 	});
 
+$('.menuLink').click(function() {
+	// $('#navbar').dropdown('toggle')
+	//$('.navbar-collapse').collapse('hide');
+	// if($('.navbar-header .navbar-toggle').css('display') !='none'){
+ //            $(".navbar-header .navbar-toggle").trigger( "click" );
+ //        }
+});
 
 });
 

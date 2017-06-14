@@ -7,6 +7,7 @@
 					<a href="#top" class="navbar-brand">
 						<img src="images/delacsa_logo2.png" alt="">
 					</a>
+
 				</div>
 				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="true">
 					<span class="icon-bar"></span>
@@ -14,14 +15,18 @@
 					<span class="icon-bar"></span>
 				</button>
 				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-left">
+					<li style="color:#fff;margin-top:30px;margin-left:10px;">"SERVICIOS AL INSTANTE"</li>
+					</ul>
 					<ul class="nav navbar-nav list-inline navbar-right" id="nav-res">
-						<li><a href="#empresa">Empresa</a></li>
-						<li><a href="#servicios">Servicios</a></li>
-						<li><a href="#contacto">Contacto</a></li>
-						<li><a class="tel"><i class="fa fa-phone"></i> 36 40 41 39</a></li>
+
+						<li><a href="#empresa" class="menuLink">Nosotros</a></li>
+						<li><a href="#servicios" class="menuLink">Servicios</a></li>
+						<li><a href="#contacto" class="menuLink">Contacto</a></li>
+						<li><a class="tel menuLink"><i class="fa fa-phone"></i> 36 40 41 39</a></li>
 						<!-- REDES SOCIALES -->
 						<li class="redesBtn">
-							<a href="javascript:void(0);" class="redesIcon" id="facebook">
+							<a href="javascript:void(0);" class="redesIcon menuLink" id="facebook">
 								<i class="fa fa-facebook" aria-hidden="true"></i>
 							</a>
 						</li>
@@ -34,19 +39,19 @@
 </header>
 <!-- header -->
 <section id="mainImage" class="container-fluid" style="padding:0;">
-	<div id="mainBrand" class="animated tada"><img src="images/delacsa_logo.png" alt="Delacsa | Soluciones en mantenimiento" class="img-responsive"></div>
+	<div id="mainBrand"><img src="images/delacsa_logo.png" alt="Delacsa | Soluciones en mantenimiento" class="img-responsive"></div>
 </section>
 
 
 <!-- empresa -->
 <section id="empresa" class="container-fluid" style="padding:0;">
 	<div class="divider">
-		<h2>Empresa</h2>
+		<h2>Nosotros</h2>
 	</div>
 	<div class="container">
 		<div class="contenido">
-			<p>DELACSA. Somos una empresa orgullosamente mexicana dedicada al mantenimiento residencial, comercial e industrial en la zona metropolitana de guadalajara.</p>
-			<p>Nuestros 20 años de experiencia en nuestro ramo, respaldan la calidad de nuestro trabajo y nos da la posibilidad de garantizar los resultados ofrecidos a nuestros usuarios.</p>
+			<p><!-- DELACSA.  -->Somos una empresa orgullosamente mexicana dedicada al mantenimiento residencial, comercial e industrial en la zona metropolitana de guadalajara.</p>
+			<p><!-- Nuestros  -->20 años de experiencia en nuestro ramo, respaldan la calidad de nuestro trabajo y nos da la posibilidad de garantizar los resultados ofrecidos a nuestros usuarios.</p>
 		</div>
 	</div>
 </section>
@@ -76,7 +81,7 @@
 
 		<div class="halfContainer pull-left">
 			<i class="servIcon"><img src="images/fontaneria.png" alt="" class="pull-left imgServicio"></i>
-			<h3 align="center">fontanería</h3>	
+			<h3 align="center">Fontanería</h3>	
 			<p>Nuestros expertos en fontanería y plomería mantendran los espacios limpios, secos y seguros para su máximo aprovechamiento.</p>
 			<p>Mantenimiento, prevención y corrección. Tuberías, baños, cocinas, llaves de paso, drenaje, malos olores, fugas de agua, goteras, bombas de agua. Limpieza de tinacos y cisternas. Tanques y tuberías de gas, boilers.</p>	
 		</div>
@@ -109,6 +114,15 @@
 		</div>
 	</div>
 	<div id="serv6" class="col-md-6 right">
+		<img src="images/remodelaciones2.png" alt="" class="imgServicio img-right">
+		<div class="halfContainer pull-left">
+			<i class="servIcon"><img src="images/remodelaciones.png" alt="" class="pull-left imgServicio"></i>
+			<h3 align="center">Remodelaciones</h3>	
+			<p>Nuestros profesionales de la construcción le brindarán asesoría sobre las propuestas óptimas de proyecto, ayudándolo a ahorrar tiempo, dinero y esfuerzo en cada paso del camino.</p>
+			<p>Proyectos y alteraciones por medio de estructura general o componentes específicos en hogares, oficinas, almacenes, naves industriales, hospitales, áreas recreativas, etc.</p>	
+		</div>
+	</div>
+	<!-- <div id="serv6" class="col-md-6 right">
 		<img src="images/impermeabilizacion2.png" alt="" class="imgServicio img-right">
 		<div class="halfContainer pull-left">
 			<i class="servIcon"><img src="images/impermeabilizacion.png" alt="" class="pull-left imgServicio"></i>
@@ -116,7 +130,7 @@
 			<p>Somos especialistas en impermebilizar azoteas.</p>
 			<p>Utilizamos materiales duraderos para garantizar nuestro trabajo.</p>	
 		</div>
-	</div>
+	</div> -->
 	<div id="serv7" class="col-md-6 left">
 		<img src="images/carpinteria2.png" alt="" class="imgServicio img-left">
 		<div class="halfContainer pull-right">
@@ -135,16 +149,7 @@
 			<p>Garantizamos nuestras instalaciones contra filtraciones, huecos entre el piso y suelo.</p>	
 		</div>
 	</div>
-	<div id="serv9" class="col-md-6 left">
-		<img src="images/remodelaciones2.png" alt="" class="imgServicio img-left">
-		<div class="halfContainer pull-right">
-			<i class="servIcon"><img src="images/remodelaciones.png" alt="" class="pull-left imgServicio"></i>
-			<h3 align="center">Remodelaciones</h3>	
-			<p>Nuestros profesionales de la construcción le brindarán asesoría sobre las propuestas óptimas de proyecto, ayudándolo a ahorrar tiempo, dinero y esfuerzo en cada paso del camino.</p>
-			<p>Proyectos y alteraciones por medio de estructura general o componentes específicos en hogares, oficinas, almacenes, naves industriales, hospitales, áreas recreativas, etc.</p>	
-		</div>
-	</div>
-	<div id="serv10" class="col-md-6 right">
+	<!-- <div id="serv10" class="col-md-6 right">
 		<img src="images/tinacos2.png" alt="" class="imgServicio img-right">
 		<div class="halfContainer pull-left">
 			<i class="servIcon"><img src="images/tinacos.png" alt="" class="pull-left imgServicio"></i>
@@ -152,7 +157,7 @@
 			<p>Damos mantenimiento a tinacos y aljibe.</p>
 			<p>Reparamos fugas, saneamos e impermeabilizamos.</p>	
 		</div>
-	</div>
+	</div> -->
 	<div id="serv11" class="col-md-6 left">
 		<img src="images/tablaroca2.png" alt="" class="imgServicio img-left">
 		<div class="halfContainer pull-right">
