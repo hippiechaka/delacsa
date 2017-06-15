@@ -21,7 +21,7 @@ if(!empty($_REQUEST['nombre'])){
     $mensaje = '
     <div style="font-size: 18px; color: #242424; margin:0 auto; max-width:600px;">
       <div style="font-size: 18px; background-color: #000; color: #fff; width: 100%; padding:15px; text-align:center;">
-        <img style:"text-align:center; margin:0 auto; left:0; right:0; width:100%; height:auto;"  src="http://delacsa.com.mx/images/contacto-img.jpg" />
+        <img style="text-align:center; margin:0 auto; left:0; right:0; width:100%; height:auto;"  src="http://delacsa.com.mx/images/contacto-img.jpg" />
       </div>
         <br />
       <div style="color: #242424; font-size:25px;">

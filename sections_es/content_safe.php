@@ -15,7 +15,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-left">
+					<ul class="nav navbar-nav navbar-left hidden-sm hidden-xs">
 					<li style="color:#fff;margin-top:30px;margin-left:10px;">"SERVICIOS AL INSTANTE"</li>
 					</ul>
 					<ul class="nav navbar-nav list-inline navbar-right" id="nav-res">
