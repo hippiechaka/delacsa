@@ -15,7 +15,7 @@
 					<span class="icon-bar"></span>
 				</button>
 				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-left hidden-sm hidden-xs">
+					<ul class="nav navbar-nav navbar-left">
 					<li style="color:#fff;margin-top:30px;margin-left:10px;">"SERVICIOS AL INSTANTE"</li>
 					</ul>
 					<ul class="nav navbar-nav list-inline navbar-right" id="nav-res">
@@ -26,7 +26,7 @@
 						<li><a class="tel menuLink"><i class="fa fa-phone"></i> 36 40 41 39</a></li>
 						<!-- REDES SOCIALES -->
 						<li class="redesBtn">
-							<a href="https://www.facebook.com/delacsamantenimiento/" target="_blank" class="redesIcon menuLink" id="facebook">
+							<a href="javascript:void(0);" class="redesIcon menuLink" id="facebook">
 								<i class="fa fa-facebook" aria-hidden="true"></i>
 							</a>
 						</li>
@@ -239,17 +239,17 @@
 		
 		<p align="center" class="sitemap">
 			<a href="#top" title="ir arriba">&uarr;<span class="sr-only">ir Arriba</span></a>&nbsp;|&nbsp;
-			<a href="#empresa">Nosotros</a>&nbsp;|&nbsp;
+			<a href="#empresa">Empresa</a>&nbsp;|&nbsp;
 			<a href="#servicios">Servicios</a>&nbsp;|&nbsp;
 			<a href="#contacto">Contacto</a><!-- &nbsp;|&nbsp; -->
 		</p>
 		<p align="center" class="small">
-			<a href="https://www.facebook.com/delacsamantenimiento/" target="_blank">Facebook</a>
+			<a href="javascript:void(0);">Facebook</a>
 			<br>
 			<a href="javascript:void(0);">AVISO DE PRIVACIDAD</a>
 		</p>
 		<hr class="gradient">
-		<p align="center" class="legal small">DELACSA  |  Todos los derechos reservados <!-- © -->&copy; <?php echo date("Y") ?></p>
+		<p align="center" class="legal small">DELACSA  |  Todos los derechos reservados ©2017</p>
 
 	</div>
 </footer>
